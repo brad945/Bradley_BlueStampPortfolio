@@ -1,7 +1,7 @@
 # Lie Detector 
 <!--Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
 -->
-<!--For my project I built a lie detector that lights up and -->
+For my project I built a lie detector that lights up whenever it detects that someone may be lying. The only catch are this project's limitations in the factors in which it takes into account when determining if the user is lying or not, which includes condensation of the skin, and heartrate. Some of my biggest challenges and triumphs were soldering all of the components onto my final board, and coding an algorithm that determines the lighting up of the LED lights for when a "lie" is detected. 
 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
@@ -46,6 +46,8 @@ For your first milestone, describe what your project is and how you plan to buil
 - What your plan is to complete your project -->
 
 <!--**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**-->
+
+My project is a lie detector, and it functions using an Arduino Nano and the Arduino IDE software. So far I have made a basic breadboard and successfully written some basic code that lights up the LEDs whenever there is a "change" in the input. There are 3 LEDs, a 2k resistor, and 6 wires in total. 3 of the wires go to the 3 LEDs, one acts as a ground cable to connect the LEDs to the Nano chip, and the remaining two are for the user's finger skin inputs. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iHqNppQKoe8" title="Bradley T. Milestone 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
