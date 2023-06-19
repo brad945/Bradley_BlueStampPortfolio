@@ -47,11 +47,14 @@ For your first milestone, describe what your project is and how you plan to buil
 
 <!--**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**-->
 
+# First Milestone
+
 My project is a lie detector, and it functions using an Arduino Nano and the Arduino IDE software. So far I have made a basic breadboard and successfully written some basic code that lights up the LEDs whenever there is a "change" in the input. There are 3 LEDs, a 2k resistor, and 6 wires in total. 3 of the wires go to the 3 LEDs, one acts as a ground cable to connect the LEDs to the Nano chip, and the remaining two are for the user's finger skin inputs. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iHqNppQKoe8" title="Bradley T. Milestone 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
+  
+ 
+ 
 <!--# Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
@@ -71,10 +74,17 @@ void loop() {
 }
 ```
 -->
+ 
+ 
 
+
+  
+# Starter Project
+
+ 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8aJUYWMVYZE" title="Bradley T. Starter Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-
+ 
 <!--
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
