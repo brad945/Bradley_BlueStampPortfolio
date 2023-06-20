@@ -1,6 +1,7 @@
 # Lie Detector 
 <!--Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
 -->
+Have you ever wanted to test out 
 For my project I built a lie detector that lights up whenever it detects that someone may be lying. The only catch are this project's limitations in the factors in which it takes into account when determining if the user is lying or not, which includes condensation of the skin, and heartrate. Some of my biggest challenges and triumphs were soldering all of the components onto my final board, and coding an algorithm that determines the lighting up of the LED lights for when a "lie" is detected. 
 
 
@@ -82,6 +83,8 @@ void loop() {
   
 # Starter Project
 
+ 
+For my starter project I made an LED cat lamp. This project was relatively simple, all it required was for me to assemble the pieces of the lamp such as the body of the cat, and then attached all of the components such as the LED light or photoresister by soldering them onto their correct place. The final part was to put on all the other pieces for extra looks - such as adding the cat's arms - and installing the battery.
  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8aJUYWMVYZE" title="Bradley T. Starter Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
