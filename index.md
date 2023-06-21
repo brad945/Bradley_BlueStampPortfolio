@@ -42,8 +42,9 @@ My second main difficulty was an error in my knowledge of breadboards. I based m
 
 What I still need to do before my final milestone is completed is to finish up all my code for the project. Right now, I have a constant number that acts as a range for detecting when someone is "lying", but now I am trying to implement a code or algorithm that calculates an actual range to detect any lies. 
 
+<!--
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+-->
 
 <!-- # First Milestone
 For your first milestone, describe what your project is and how you plan to build it. You can include:
