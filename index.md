@@ -26,7 +26,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 
 For my third and final milestone I finalized my code 
-
+-->
 
 # Second Milestone
 <!--For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
@@ -35,7 +35,7 @@ For my third and final milestone I finalized my code
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone
 -->
-<iframe width="1680" height="735" src="https://www.youtube.com/embed/kPkh-QVg0Vo" title="Bradley T. Milestone 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kPkh-QVg0Vo" title="Bradley T. Milestone 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 For my second milestone, I successfully transferred all of my components from my "draft" breadboard to a more professional soldering board. This process was very tedious and was actually much more difficult than I thought, as it was essentially all just soldering and de-soldering. I learned many things through doing this, such as learning new and better ways to solder and de-solder, and just getting better at both in general. 
