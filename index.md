@@ -17,14 +17,15 @@ For my project I built a lie detector that lights up whenever it detects that so
 
   
 # Final Milestone
+<!--
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
+-->
 
-
-<iframe width="1664" height="733" src="https://www.youtube.com/embed/wyVMV2opp0s" title="Bradley Milestone 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width= "850" height="315" src="https://www.youtube.com/embed/wyVMV2opp0s" title="Bradley Milestone 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
