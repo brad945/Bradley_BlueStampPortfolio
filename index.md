@@ -16,17 +16,22 @@ For my project I built a lie detector that lights up whenever it detects that so
 -->
 
   
-<!--# Final Milestone
+# Final Milestone
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 
+<iframe width="1664" height="733" src="https://www.youtube.com/embed/wyVMV2opp0s" title="Bradley Milestone 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+For my third and final milestone I finalized my code and fixed everything into my 3D printed case. I also re-modified my finger wraps to be made out of velcro, aluminum foil, and electrical tape. For my code, the main issue was that there were two Serial.print() functions/statements, and I found out that you can only have one Serial.print() statement in a code, or else your values and code will malfunction like mine did. 
 
-For my third and final milestone I finalized my code 
--->
+One small challenge for my 3D case was that the hole for where the arduino cable would go through was slightly offset of where I wanted it to be, so I learned how to dremel and modified it to my liking. Another one of my challenges was trying to get the board to be elevated inside of the case so that the LEDs could poke through their designated hole at the top. Apart from learning how to dremel, I also learned and used a file to make some of the cuts with the dremel more clean and smooth. 
+
+Some of my biggest challenges in general I faced during my time at Bluestamp were mainly small minute details, and they taught me how sometimes the most trivial things can play a major role in determining your project's success and functionability. Some examples included accidentally creating a bridge between two ports or holes when soldering, or missing an end bracket ("}") in some places in my code, sometimes at the end of a loop or if-statement. For soldering, the more I practiced, the better I got, and for catching errors in my code, I learned how important organization is, especially because even the slightest mistake in the code stopped the entire program from working, and was usually tucked and hidden in a small  unexpected place in the hundreds of lines of code that I had. 
+
+I feel that I can keep and retain many of the key skills that I learned all at Bluestamp - such as soldering, filing, dremeling, and working with circuitry and breadboards in general - to help me in my future path for engineering. I wish to not only expand my knowledge and experience in a potential future job but also to obtain more engineering skills and hone them down to perfection. 
 
 # Second Milestone
 <!--For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
@@ -69,6 +74,18 @@ So far I have hard-coded it to fit my fingers’ range of 900-1000, and I hope t
 
 
 
+
+
+  
+# Starter Project
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8aJUYWMVYZE" title="Bradley T. Starter Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+ 
+For my starter project I made an LED cat lamp. This project was relatively simple, all it required was for me to assemble the pieces of the lamp such as the body of the cat, and then attached all of the components such as the LED light or photoresister by soldering them onto their correct place. The final part was to put on all the other pieces for extra looks - such as adding the cat's arms - and installing the battery.
+ 
+
+
   
  
  
@@ -90,19 +107,17 @@ void loop() {
 
 }
 ```
+
+# CAD Files
+
+[case - main - bradley (1).zip](https://github.com/brad945/Bradley_BlueStampPortfolio/files/11885519/case.-.main.-.bradley.1.zip)
+[case - lid - bradley (1).zip](https://github.com/brad945/Bradley_BlueStampPortfolio/files/11885522/case.-.lid.-.bradley.1.zip)
+
 -->
  
- 
 
 
-  
-# Starter Project
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8aJUYWMVYZE" title="Bradley T. Starter Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
- 
-For my starter project I made an LED cat lamp. This project was relatively simple, all it required was for me to assemble the pieces of the lamp such as the body of the cat, and then attached all of the components such as the LED light or photoresister by soldering them onto their correct place. The final part was to put on all the other pieces for extra looks - such as adding the cat's arms - and installing the battery.
- 
 
  
 <!--
