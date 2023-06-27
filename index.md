@@ -7,7 +7,7 @@ For my project I built a lie detector that lights up whenever it detects that so
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Bradley T | Carlmont | Mechanical Engineering | Incoming Junior
+| Bradley Tsou | Carlmont High School | Mechanical/Electrical Engineering | Incoming Junior
 
 <!--
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
@@ -23,7 +23,10 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 
+
 <iframe width="1664" height="733" src="https://www.youtube.com/embed/wyVMV2opp0s" title="Bradley Milestone 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 
 For my third and final milestone I finalized my code and fixed everything into my 3D printed case. I also re-modified my finger wraps to be made out of velcro, aluminum foil, and electrical tape. For my code, the main issue was that there were two Serial.print() functions/statements, and I found out that you can only have one Serial.print() statement in a code, or else your values and code will malfunction like mine did. 
 
@@ -33,14 +36,17 @@ Some of my biggest challenges in general I faced during my time at Bluestamp wer
 
 I feel that I can keep and retain many of the key skills that I learned all at Bluestamp - such as soldering, filing, dremeling, and working with circuitry and breadboards in general - to help me in my future path for engineering. I wish to not only expand my knowledge and experience in a potential future job but also to obtain more engineering skills and hone them down to perfection. 
 
+
+
+
+
+
+
 # Second Milestone
-<!--For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone
--->
+
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kPkh-QVg0Vo" title="Bradley T. Milestone 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 
 For my second milestone, I successfully transferred all of my components from my "draft" breadboard to a more professional soldering board. This process was very tedious and was actually much more difficult than I thought, as it was essentially all just soldering and de-soldering. I learned many things through doing this, such as learning new and better ways to solder and de-solder, and just getting better at both in general. 
@@ -51,14 +57,10 @@ My second main difficulty was a gap in my knowledge of breadboards. I based my b
 
 What I still need to do before my final milestone is completed is to finish up all my code for the project. Right now, I have a constant number that acts as a range for detecting when someone is "lying", but now I am trying to implement a code or algorithm that calculates an actual range to detect any lies. 
 
-<!-- # First Milestone
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project -->
 
-<!--**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**-->
+
+
+
 
 # First Milestone
 
@@ -106,14 +108,13 @@ void loop() {
   // put your main code here, to run repeatedly:
 
 }
-```
-
+-->
 # CAD Files
 
 [case - main - bradley (1).zip](https://github.com/brad945/Bradley_BlueStampPortfolio/files/11885519/case.-.main.-.bradley.1.zip)
 [case - lid - bradley (1).zip](https://github.com/brad945/Bradley_BlueStampPortfolio/files/11885522/case.-.lid.-.bradley.1.zip)
 
--->
+
  
 
 
