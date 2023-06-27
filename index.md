@@ -25,7 +25,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What you hope to learn in the future after everything you've learned at BSE
 -->
 
-<iframe width= "850" height="315" src="https://www.youtube.com/embed/wyVMV2opp0s" title="Bradley Milestone 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width= "850" height="400" src="https://www.youtube.com/embed/wyVMV2opp0s" title="Bradley Milestone 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
@@ -46,7 +46,7 @@ I feel that I can keep and retain many of the key skills that I learned all at B
 # Second Milestone
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kPkh-QVg0Vo" title="Bradley T. Milestone 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="400" src="https://www.youtube.com/embed/kPkh-QVg0Vo" title="Bradley T. Milestone 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
@@ -66,7 +66,7 @@ What I still need to do before my final milestone is completed is to finish up a
 # First Milestone
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iHqNppQKoe8" title="Bradley T. Milestone 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="400" src="https://www.youtube.com/embed/iHqNppQKoe8" title="Bradley T. Milestone 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 My project is a lie detector, and it functions using an Arduino Nano and the Arduino IDE software. So far I have made a basic breadboard and successfully written some basic code that lights up the LEDs whenever there is a "change" in the input. There are 3 LEDs, a 2k resistor, and 6 wires in total. 3 of the wires go to the 3 LEDs, one acts as a ground cable to connect the LEDs to the Nano chip, and the remaining two are for the user's finger skin inputs. I also decided to solder some wires onto the Arduino Nano on the breadboard instead of just plugging them in, for some more soldering practice, but this turned out to be much harder than I had thought.
