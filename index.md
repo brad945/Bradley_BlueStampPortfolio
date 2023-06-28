@@ -238,8 +238,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Male to Male wires | Connects all the components on the board | $6.50 for 80 | <a href="https://www.amazon.com/GenBasic-Solderless-Dupont-Compatible-Breadboard-Prototyping/dp/B01L5UJ36U/ref=sr_1_2?crid=X626UMDSFLWM&keywords=male+to+male+wires&qid=1687978076&sprefix=male+to+male+wire%2Caps%2C139&sr=8-2"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Heartrate sensor | Sensor for heartrate upon touch with skin | $25 | <a href="https://pulsesensor.com/products/pulse-sensor-amped                
- "> Link </a> |
+| Heartrate sensor | Sensor for heartrate upon touch with skin | $25 | <a href="https://pulsesensor.com/products/pulse-sensor-amped"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | 2k resistor | Helps to regulate current in circut | $5.50 for 100 | <a href="https://www.amazon.com/EDGELEC-Resistor-Tolerance-Resistance-Optional/dp/B07HDDN1V8/ref=sr_1_1_sspa?hvadid=410001486155&hvdev=c&hvlocphy=9032131&hvnetw=g&hvqmt=e&hvrand=2714099609098325509&hvtargid=kwd-14512363237&hydadcr=24664_11410921&keywords=2k+resistor&qid=1687983235&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
