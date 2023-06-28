@@ -41,8 +41,6 @@ I feel that I can keep and retain many of the key skills that I learned all at B
 
 
 
-
-
 # Second Milestone
 
 
@@ -91,8 +89,7 @@ For my starter project I made an LED cat lamp. This project was relatively simpl
 
   
  
-<!--# Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+# Schematics 
 
 ![lie detector schematics ](https://github.com/brad945/Bradley_BlueStampPortfolio/assets/136377695/b94a1574-4d65-4eaf-bc99-27134af4d54e)
 
@@ -229,7 +226,6 @@ void loop() {
 
 
  
-<!--
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
@@ -243,11 +239,11 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Male to Male wires | Connects all the components on the board | $6.50 for 80 | <a href="https://www.amazon.com/GenBasic-Solderless-Dupont-Compatible-Breadboard-Prototyping/dp/B01L5UJ36U/ref=sr_1_2?crid=X626UMDSFLWM&keywords=male+to+male+wires&qid=1687978076&sprefix=male+to+male+wire%2Caps%2C139&sr=8-2"> Link </a> |
 |:--:|:--:|:--:|:--:|
 
-| Heartrate sensor | Sensor for heartrate upon touch with skin | $25 | <a href="https://pulsesensor.com/products/pulse-sensor-amped
-"> Link </a> |
+| Heartrate sensor | Sensor for heartrate upon touch with skin | $25 | <a href="https://pulsesensor.com/products/pulse-sensor-amped                
+ "> Link </a> |
 |:--:|:--:|:--:|:--:|
 
-
+<!--
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
