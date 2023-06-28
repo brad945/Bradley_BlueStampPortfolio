@@ -130,9 +130,9 @@ void setup() {
   pinMode(2, OUTPUT);   // Green LED
   pinMode(6, OUTPUT);   // Yellow LED
   pinMode(11, OUTPUT);  // Red LED
-  digitalWrite(2, HIGH);  // Sets all the LEDs to on during "SETUP" to make sure they all work and can light up
+  digitalWrite(2, HIGH);  // Sets all the LEDs to on during "SETUP" to make sure they all work and can light up 
   delay(250);
-  digitalWrite(6, HIGH);
+  digitalWrite(6, HIGH); // the items inside of the parenthasis next to "digitalWrite" represent the pin number it is attatched to, and HIGH/LOW                             tell that the light is either on or off respectively. 
   delay(250);
   digitalWrite(11, HIGH);
   delay(250);
@@ -153,7 +153,7 @@ void loop() {
     ft = false;
     //delay(500);
   }
-  if (!ft && bpmcount < 7) {
+  if (!ft && bpmcount < 7) {   // checking if ft is false and bpmcount is less than 7
     Serial.print(".");
     digitalWrite(2, LOW);  // Green LED
     digitalWrite(6, LOW);  // Yellow LED
@@ -162,8 +162,8 @@ void loop() {
     delay(800);
   }
 
-  if (bpmcount == 51) {
-    Serial.println(" ");
+  if (bpmcount == 51) {   // tests to see when bpmcount reaches 51
+    Serial.println(" ");  // this basically skips a line to make things easier to read
     bpmcount++;
   }
 
@@ -174,17 +174,17 @@ void loop() {
     int myBPM = pulseSensor.getBeatsPerMinute();  // Calls function on our pulseSensor object that returns BPM as an "int".                                              // "myBPM" hold this BPM value now.
                                                   //Serial.print("BPM: ");                         // Print phrase "BPM: "
                                                   //Serial.println(myBPM);                         // Print the value inside of myBPM.
-    if (myBPM > 108) {
+    if (myBPM > 108) {  // these if statements check for if the heartrate goes past a certain bpm
       Serial.println("♥  A HeartBeat Happened ! ");
       Serial.print("-------------------------------------------------- LYING: ");
       Serial.print(myBPM);
       Serial.println(" BPM");
       digitalWrite(2, LOW);  // Green LED
       digitalWrite(6, LOW);  // Yellow LED
-      digitalWrite(11, HIGH);
+      digitalWrite(11, HIGH);   // in this case, because the bpm is over 108, "digitalWrite" sets the green and yellow to off and red to on, because                                     a lie is detected
       tone(buzzer, 500);
 
-    } else if (myBPM > 90) {
+    } else if (myBPM > 90) { // the "else if" means that if the previous "if" statement is false, then this one will run if it is true. 
       Serial.println("♥  A HeartBeat Happened ! ");
       Serial.print("------------------------------------------------ MAYBE LYING: ");
       Serial.print(myBPM);
@@ -194,7 +194,7 @@ void loop() {
       digitalWrite(11, LOW);
       noTone(buzzer);
 
-    } else {
+    } else {  // "else" runs when all the "if" and "else if" statements are false
       Serial.println("♥  A HeartBeat Happened ! ");
       Serial.print("----------------------------------------------- NOT LYING: ");
       Serial.print(myBPM);
