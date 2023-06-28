@@ -94,7 +94,7 @@ For my starter project I made an LED cat lamp. This project was relatively simpl
 ![lie detector schematics ](https://github.com/brad945/Bradley_BlueStampPortfolio/assets/136377695/b94a1574-4d65-4eaf-bc99-27134af4d54e)
 
 
--->
+
 
 # Code
 
