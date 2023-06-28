@@ -146,7 +146,7 @@ void setup() {
   }
 }
 
-void loop() {
+void loop() { // this loop is fixed and will repeat over and over again as long as the program is running
 
   if (ft) {
     Serial.print("Calibrating.");
