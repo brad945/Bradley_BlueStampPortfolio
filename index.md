@@ -130,7 +130,7 @@ void setup() {
   pinMode(2, OUTPUT);   // Green LED
   pinMode(6, OUTPUT);   // Yellow LED
   pinMode(11, OUTPUT);  // Red LED
-  digitalWrite(2, HIGH);
+  digitalWrite(2, HIGH);  // Sets all the LEDs to on during "SETUP" to make sure they all work and can light up
   delay(250);
   digitalWrite(6, HIGH);
   delay(250);
@@ -238,10 +238,17 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Male to Male wires | Connects all the components on the board | $6.50 for 80 | <a href="https://www.amazon.com/GenBasic-Solderless-Dupont-Compatible-Breadboard-Prototyping/dp/B01L5UJ36U/ref=sr_1_2?crid=X626UMDSFLWM&keywords=male+to+male+wires&qid=1687978076&sprefix=male+to+male+wire%2Caps%2C139&sr=8-2"> Link </a> |
 |:--:|:--:|:--:|:--:|
-
 | Heartrate sensor | Sensor for heartrate upon touch with skin | $25 | <a href="https://pulsesensor.com/products/pulse-sensor-amped                
  "> Link </a> |
 |:--:|:--:|:--:|:--:|
+| 2k resistor | Helps to regulate current in circut | $5.50 for 100 | <a href="https://www.amazon.com/EDGELEC-Resistor-Tolerance-Resistance-Optional/dp/B07HDDN1V8/ref=sr_1_1_sspa?hvadid=410001486155&hvdev=c&hvlocphy=9032131&hvnetw=g&hvqmt=e&hvrand=2714099609098325509&hvtargid=kwd-14512363237&hydadcr=24664_11410921&keywords=2k+resistor&qid=1687983235&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Soldering kit | Used to solder everything together, comes with de-solderer, soldering wire, tweezers, and customizable solder tips | $50 | <a href="https://www.amazon.com/YIHUA-Soldering-194%C2%BAF-896%C2%BAF-Adjustable-Calibration/dp/B082F1WKP9/ref=sr_1_2_sspa?crid=29XS44CZJGTXJ&keywords=soldering+kit&qid=1687983378&sprefix=soldering+ki%2Caps%2C143&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Gikfun solderable board | The base for the components | $10 for 5 | <a href="https://www.amazon.com/Gikfun-Solder-able-Breadboard-Arduino-Electronic/dp/B0778G64QZ"> Link </a> |
+|:--:|:--:|:--:|:--:|
+
+
 
 <!--
 # Other Resources/Examples
