@@ -85,31 +85,137 @@ So far I have hard-coded it to fit my fingers’ range of 900-1000, and I hope t
 <iframe width="825" height="480" src="https://www.youtube.com/embed/8aJUYWMVYZE" title="Bradley T. Starter Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
  
-For my starter project I made an LED cat lamp. This project was relatively simple, all it required was for me to assemble the pieces of the lamp such as the body of the cat, and then attached all of the components such as the LED light or photoresister by soldering them onto their correct place. The final part was to put on all the other pieces for extra looks - such as adding the cat's arms - and installing the battery.
+For my starter project I made an LED cat lamp. This project was relatively simple, all it required was for me to assemble the pieces of the lamp such as the body of the cat, and then attached all of the components such as the LED light or photoresister by soldering them onto their correct place. The final part was to put on all the other pieces for extra looks - such as adding the cat's arms - and installing the battery. 
  
 
 
   
  
- 
 <!--# Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
+![lie detector schematics ](https://github.com/brad945/Bradley_BlueStampPortfolio/assets/136377695/b94a1574-4d65-4eaf-bc99-27134af4d54e)
+
+
+-->
+
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
+
+int bpmcount = 0;
+bool tf = true;
+bool ft = true;
+long count = 0;
+long delaycheck = 0;
+int const PULSE_SENSOR_PIN = 0;  // 'S' Signal pin connected to A0
+int Signal;                      // Store incoming ADC data. Value can range from 0-1024
+int Threshold = 550;             // Determine which Signal to "count as a beat" and which to ignore.
+const int buzzer = 9;
+
+
+#define USE_ARDUINO_INTERRUPTS true  // Set-up low-level interrupts for most acurate BPM math.
+#include <PulseSensorPlayground.h>   // Includes the PulseSensorPlayground Library.
+
+//  Variables
+const int PulseWire = 0;      // PulseSensor PURPLE WIRE connected to ANALOG PIN 0
+const int LED = LED_BUILTIN;  // The on-board Arduino LED, close to PIN 13.
+//int Threshold = 550;           // Determine which Signal to "count as a beat" and which to ignore.
+// Use the "Gettting Started Project" to fine-tune Threshold Value beyond default setting.
+// Otherwise leave the default "550" value.
+
+PulseSensorPlayground pulseSensor;
+
 void setup() {
-  // put your setup code here, to run once:
   Serial.begin(9600);
-  Serial.println("Hello World!");
+  pinMode(buzzer, OUTPUT);
+  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(2, OUTPUT);   // Green LED
+  pinMode(6, OUTPUT);   // Yellow LED
+  pinMode(11, OUTPUT);  // Red LED
+  digitalWrite(2, HIGH);
+  delay(250);
+  digitalWrite(6, HIGH);
+  delay(250);
+  digitalWrite(11, HIGH);
+  delay(250);
+  pulseSensor.analogInput(PulseWire);
+  pulseSensor.blinkOnPulse(LED);  //auto-magically blink Arduino's LED with heartbeat.
+  pulseSensor.setThreshold(Threshold);
+
+  // Double-check the "pulseSensor" object was created and "began" seeing a signal.
+  if (pulseSensor.begin()) {
+    Serial.println("We created a pulseSensor Object !");  //This prints one time at Arduino power-up,  or on Arduino reset.
+  }
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
 
+  if (ft) {
+    Serial.print("Calibrating.");
+    ft = false;
+    //delay(500);
+  }
+  if (!ft && bpmcount < 7) {
+    Serial.print(".");
+    digitalWrite(2, LOW);  // Green LED
+    digitalWrite(6, LOW);  // Yellow LED
+    digitalWrite(11, LOW);
+    bpmcount++;
+    delay(800);
+  }
+
+  if (bpmcount == 51) {
+    Serial.println(" ");
+    bpmcount++;
+  }
+
+
+  if (pulseSensor.sawStartOfBeat()) {  // Constantly test to see if "a beat happened".
+    bpmcount == 50;
+    bpmcount++;
+    int myBPM = pulseSensor.getBeatsPerMinute();  // Calls function on our pulseSensor object that returns BPM as an "int".                                              // "myBPM" hold this BPM value now.
+                                                  //Serial.print("BPM: ");                         // Print phrase "BPM: "
+                                                  //Serial.println(myBPM);                         // Print the value inside of myBPM.
+    if (myBPM > 108) {
+      Serial.println("♥  A HeartBeat Happened ! ");
+      Serial.print("-------------------------------------------------- LYING: ");
+      Serial.print(myBPM);
+      Serial.println(" BPM");
+      digitalWrite(2, LOW);  // Green LED
+      digitalWrite(6, LOW);  // Yellow LED
+      digitalWrite(11, HIGH);
+      tone(buzzer, 500);
+
+    } else if (myBPM > 90) {
+      Serial.println("♥  A HeartBeat Happened ! ");
+      Serial.print("------------------------------------------------ MAYBE LYING: ");
+      Serial.print(myBPM);
+      Serial.println(" BPM");
+      digitalWrite(2, LOW);   // Green LED
+      digitalWrite(6, HIGH);  // Yellow LED
+      digitalWrite(11, LOW);
+      noTone(buzzer);
+
+    } else {
+      Serial.println("♥  A HeartBeat Happened ! ");
+      Serial.print("----------------------------------------------- NOT LYING: ");
+      Serial.print(myBPM);
+      Serial.println(" BPM");
+      digitalWrite(2, HIGH);  // Green LED
+      digitalWrite(6, LOW);   // Yellow LED
+      digitalWrite(11, LOW);
+      noTone(buzzer);
+    }
+  }
 }
--->
+
+
+```
+
+
+
+
 # CAD Files
 
 [case - main - bradley (1).zip](https://github.com/brad945/Bradley_BlueStampPortfolio/files/11885519/case.-.main.-.bradley.1.zip)
@@ -130,12 +236,17 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Arduino Nano | The main component for the project, the microcontroller/chip | ~$25 | <a href="https://store-usa.arduino.cc/products/arduino-nano?srsltid=AR57-fBz_6umi3ljqdw_ObH-j1NlSPWRbpcJ4VfUPAbstS5qWNifoB0aOiA"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| LED lights | Lights up when detects lie or vice versa | $12 for 450 | <a href="https://www.amazon.com/DiCUNO-450pcs-Colors-Emitting-Assorted/dp/B073QMYKDM/ref=sr_1_2_sspa?crid=CKYH6HRO418J&keywords=led+lights+breadboard+singular&qid=1687977865&sprefix=led+lights+breadbaord+singul%2Caps%2C197&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Male to Male wires | Connects all the components on the board | $6.50 for 80 | <a href="https://www.amazon.com/GenBasic-Solderless-Dupont-Compatible-Breadboard-Prototyping/dp/B01L5UJ36U/ref=sr_1_2?crid=X626UMDSFLWM&keywords=male+to+male+wires&qid=1687978076&sprefix=male+to+male+wire%2Caps%2C139&sr=8-2"> Link </a> |
 |:--:|:--:|:--:|:--:|
+
+| Heartrate sensor | Sensor for heartrate upon touch with skin | $25 | <a href="https://pulsesensor.com/products/pulse-sensor-amped
+"> Link </a> |
+|:--:|:--:|:--:|:--:|
+
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
