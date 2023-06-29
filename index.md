@@ -13,7 +13,17 @@ For my project I built a lie detector that lights up whenever it detects that so
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](logo.svg)    
+
+
+
 -->
+
+
+# Modification
+
+
+For my modifications, I added a buzzer and a heartrate sensor to my project. The buzzer acts similarly to the LED lights, as it buzzes whenever the lie detector detects a possible lie.
+
 
   
 # Final Milestone
