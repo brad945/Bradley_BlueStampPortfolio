@@ -13,7 +13,7 @@ For my project I built a lie detector that lights up whenever it detects that so
 # Images of completed project:
 
 # - Side view
-![IMG_0421](https://github.com/brad945/Bradley_BlueStampPortfolio/assets/136377695/4edf571f-b101-4b94-85f4-d2df869cc4f6)
+![Untitled drawing](https://github.com/brad945/Bradley_BlueStampPortfolio/assets/136377695/99352014-4ad1-4c10-87c8-c18986a94f55)
 
 
 # - Top view
@@ -24,7 +24,9 @@ For my project I built a lie detector that lights up whenever it detects that so
 # Modification
 
 
-For my modifications, I added a buzzer and a heartrate sensor to my project. The buzzer acts similarly to the LED lights, as it buzzes whenever the lie detector detects a possible lie.
+For my modifications, I added a buzzer and a heartrate sensor to my project. The buzzer acts similarly to the LED lights, as it buzzes whenever the lie detector detects a possible lie. The addition of the heartrate sensor was in hopes of increasing the accuracy of the lie detector, as my previous wires - as aforementioned - were somewhat faulty and subject to inconsistancy and less accurate skin/lie readings.
+
+Upon installment of the heartrate sensor, the sensor was proving itself to be effective as it gave largely accurate readings as long as the user's finger was against the sensor and not making too much movement. 
 
 
   
@@ -41,7 +43,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 
 
-For my third and final milestone I finalized my code and fixed everything into my 3D printed case. I also re-modified my finger wraps to be made out of velcro, aluminum foil, and electrical tape. For my code, the main issue was that there were two Serial.print() functions/statements, and I found out that you can only have one Serial.print() statement in a code, or else your values and code will malfunction like mine did. 
+For my third and final milestone I finalized my code and fixed everything into my 3D printed case. I also re-modified my finger wraps to be made out of velcro, aluminum foil, and electrical tape to try and make the readings more accurate - which worked to the extent that there was a barely noticable change in its accuracy. For my code, the main issue was that there were two Serial.print() functions/statements, and I found out that you can only have one Serial.print() statement in a code, or else your values and code will malfunction like mine did. 
 
 One small challenge for my 3D case was that the hole for where the arduino cable would go through was slightly offset of where I wanted it to be, so I learned how to dremel and modified it to my liking. Another one of my challenges was trying to get the board to be elevated inside of the case so that the LEDs could poke through their designated hole at the top. Apart from learning how to dremel, I also learned and used a file to make some of the cuts with the dremel more clean and smooth. 
 
