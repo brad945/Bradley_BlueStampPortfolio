@@ -12,11 +12,11 @@ For my project I built a lie detector that lights up whenever it detects that so
 
 # Images of completed project:
 
-# Side view
+# - Side view
 ![IMG_0421](https://github.com/brad945/Bradley_BlueStampPortfolio/assets/136377695/4edf571f-b101-4b94-85f4-d2df869cc4f6)
 
 
-# Top view
+# - Top view
 ![IMG_0422](https://github.com/brad945/Bradley_BlueStampPortfolio/assets/136377695/9265a801-6149-49c8-b74f-cfd9fd5bc267)
 
 
