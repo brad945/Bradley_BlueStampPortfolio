@@ -12,9 +12,9 @@ For my project I built a lie detector that lights up whenever it detects that so
 <!--
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headstone Image](logo.svg)    
+![IMG_0421](https://github.com/brad945/Bradley_BlueStampPortfolio/assets/136377695/4edf571f-b101-4b94-85f4-d2df869cc4f6)
 
-
+![IMG_0422](https://github.com/brad945/Bradley_BlueStampPortfolio/assets/136377695/9265a801-6149-49c8-b74f-cfd9fd5bc267)
 
 -->
 
