@@ -17,7 +17,7 @@ For my project I built a lie detector that lights up whenever it detects that so
 
 
 # - Top view
-![IMG_0422](https://github.com/brad945/Bradley_BlueStampPortfolio/assets/136377695/9265a801-6149-49c8-b74f-cfd9fd5bc267)
+![Untitled drawing (1)](https://github.com/brad945/Bradley_BlueStampPortfolio/assets/136377695/b21eb7bb-7dd2-47a6-842f-2932d57f02c6)
 
 
 
@@ -27,6 +27,8 @@ For my project I built a lie detector that lights up whenever it detects that so
 For my modifications, I added a buzzer and a heartrate sensor to my project. The buzzer acts similarly to the LED lights, as it buzzes whenever the lie detector detects a possible lie. The addition of the heartrate sensor was in hopes of increasing the accuracy of the lie detector, as my previous wires - as aforementioned - were somewhat faulty and subject to inconsistancy and less accurate skin/lie readings.
 
 Upon installment of the heartrate sensor, the sensor was proving itself to be effective as it gave largely accurate readings as long as the user's finger was against the sensor and not making too much movement. 
+
+What gave me the most trouble during the "modifications" milestone was trying to install the buzzer. Originally I had just connected the buzzer to the 5V pin, which worked, but would constantly just have the buzzer buzzing. So I decided to connect it to one of the Arduino Nano chip's digital pins, but what I wasn't aware of was that the actual chip's pin was not soldered onto the board correctly. This meant the there was never a connection between the buzzer and the Arduino Nano, which is why it seemingly didn't work. Fortunately, when I tried switching the connection from pin 9 to pin 8, I realized that it wasn't a specific pin that was causing the error, but that it just wasn't soldered properly, and so I fixed it. 
 
 
   
