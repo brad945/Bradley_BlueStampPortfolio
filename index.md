@@ -23,7 +23,7 @@ For my project I built a lie detector that lights up whenever it detects that so
 
 # Modifications
 
-<iframe width="1680" height="732" src="https://www.youtube.com/embed/E2XyNHmamDo" title="Bradley T. Final Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="825" height="480" src="https://www.youtube.com/embed/E2XyNHmamDo" title="Bradley T. Final Milestone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 For my modifications, I added a buzzer and a heartrate sensor to my project. The buzzer acts similarly to the LED lights, as it buzzes whenever the lie detector detects a possible lie. The addition of the heartrate sensor was in hopes of increasing the accuracy of the lie detector, as my previous wires - as aforementioned - were somewhat faulty and subject to inconsistancy and less accurate skin/lie readings.
 
