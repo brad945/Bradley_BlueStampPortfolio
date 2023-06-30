@@ -21,7 +21,7 @@ For my project I built a lie detector that lights up whenever it detects that so
 
 
 
-# Modification
+# Modifications
 
 
 For my modifications, I added a buzzer and a heartrate sensor to my project. The buzzer acts similarly to the LED lights, as it buzzes whenever the lie detector detects a possible lie. The addition of the heartrate sensor was in hopes of increasing the accuracy of the lie detector, as my previous wires - as aforementioned - were somewhat faulty and subject to inconsistancy and less accurate skin/lie readings.
